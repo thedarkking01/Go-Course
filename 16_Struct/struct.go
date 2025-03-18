@@ -12,13 +12,13 @@ type Person struct {
 func main() {
     // Initialize a struct instance
     person1 := Person{
-        FirstName: "John",
-        LastName:  "Doe",
-        Age:       30,
+        FirstName: "Sourabh",
+        LastName:  "Bais",
+        Age:       22,
     }
 
     // Accessing struct fields
-    fmt.Println(person1.FirstName) // Output: John
-    fmt.Println(person1.LastName)  // Output: Doe
-    fmt.Println(person1.Age)       // Output: 30
+    fmt.Println(person1.FirstName) 
+    fmt.Println(person1.LastName)  
+    fmt.Println(person1.Age)       
 }
