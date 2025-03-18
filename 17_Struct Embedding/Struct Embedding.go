@@ -7,6 +7,7 @@ type Person struct {
     FirstName string
     LastName  string
     Age       int
+	height    string
 }
 
 // Define another struct 'Employee' that embeds 'Person'
@@ -22,6 +23,7 @@ func main() {
             FirstName: "Sourabh",
             LastName:  "Bais",
             Age:       22,
+			height:"6 foot",
         },
         Position: "Software Engineer",
     }
@@ -31,4 +33,5 @@ func main() {
     fmt.Println(employee1.LastName)  
     fmt.Println(employee1.Age)        
     fmt.Println(employee1.Position) 
+	fmt.Println(employee1.height)   
 }
