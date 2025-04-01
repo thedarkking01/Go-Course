@@ -24,7 +24,6 @@ func main() {
 		wg.Add(1)            // Increment the WaitGroup counter
 		go increment(&wg)    // Call increment function in a new goroutine
 	}
-
 	wg.Wait() // Wait for all goroutines to finish
 	fmt.Println("Final Counter:", counter) // Print final value of counter
 }
